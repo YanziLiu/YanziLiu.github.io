@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yanzi Liu</title>
+  <meta name="description" content="Yanzi Liu — medical imaging, image restoration, and AI agents. MRes in Healthcare Technologies, King's College London.">
+  <link rel="canonical" href="https://yanziliu.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="banner" aria-label="Main navigation">
+    <div class="container">
+      <a class="nav-title" href="#about">Yanzi Liu</a>
+      <div class="nav-links" data-spy>
+        <a href="#about">About</a><a href="#blog">Blog</a><a href="#publications">Publications</a><a href="#projects">Projects</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="about" aria-label="About Yanzi Liu">
+    <div class="container hero-grid">
+      <div class="hero-main">
+        <div class="name-row"><h1 class="display">Ya<span>.</span>L</h1><span class="alias" lang="zh-CN">彦梓</span></div>
+        <p class="subname">Yanzi Liu<span class="cn-name" lang="zh-CN">刘彦梓</span></p>
+        <div class="bio-text">
+          <p>I work on medical imaging, image restoration, and AI agents. I received my MRes in Healthcare Technologies with Distinction and my BSc in Mathematics with Statistics from <a href="https://www.kcl.ac.uk/">King’s College London</a>.</p>
+          <p>My research explores endoscopic video restoration, underwater image restoration, and AI-assisted pituitary tumour analysis. I am interested in learning methods that improve visual information and connect research with practical applications.</p>
+        </div>
+      </div>
+      <aside class="hero-side" aria-label="Contact and education">
+        <div class="hero-photo"><img src="assets/profile.svg" width="230" height="230" alt="YL, initials of Yanzi Liu"></div>
+        <dl class="facts"><div class="fact"><dt>Email</dt><dd>yanzi.liu [at] kcl.ac.uk</dd></div></dl>
+        <div class="arrow-links">
+          <a class="link" href="https://github.com/YanziLiu">GitHub</a>
+          <a class="link" href="mailto:yanzi.liu@kcl.ac.uk">Email</a>
+          <a class="link" href="#publications">Publications</a>
+          <a class="link" href="#projects">Projects</a>
+        </div>
+        <ul class="affils">
+          <li><span class="affil-mark"><img src="assets/kcl-mark.svg" alt="KCL monogram"></span><span class="affil-text"><strong>King’s College London</strong><span>MRes Healthcare Technologies</span><span>Distinction</span></span></li>
+          <li><span class="affil-mark"><img src="assets/kcl-mark.svg" alt="KCL monogram"></span><span class="affil-text"><strong>King’s College London</strong><span>BSc Mathematics with Statistics</span></span></li>
+        </ul>
+      </aside>
+    </div>
+    <a class="scroll-bar" href="#publications" aria-label="Scroll to selected publications"></a>
+  </section>
+
+  <main class="content">
+    <aside class="context-bar" aria-label="On this page">
+      <div data-spy>
+        <p class="bar-label">Blog</p><ol><li><a href="#blog-sandbar">SandBAR</a></li></ol>
+        <p class="bar-label">Publications</p><ol><li><a href="#sandbar">SandBAR</a></li><li><a href="#adaptive-budget">Adaptive Budget</a></li></ol>
+        <p class="bar-label">Projects</p><ol><li><a href="#sandbar-project">SandBAR</a></li><li><a href="#adaptive-project">Adaptive Budget</a></li></ol>
+      </div>
+    </aside>
+    <div class="content-section">
+      <section class="blog" id="blog">
+        <div class="pubs-head"><h2>Blog</h2></div>
+        <article class="post" id="blog-sandbar">
+          <a class="post-figure" href="blog/sandbar.html"><img src="assets/research-notes.svg" width="1280" height="720" alt="SandBAR: complementary frequency bands for underwater image restoration" loading="lazy"></a>
+          <p class="post-date">November 2026</p>
+          <h3><a href="blog/sandbar.html">A clearer view beneath the surface</a></h3>
+          <p class="post-dek">A short introduction to SandBAR: using complementary frequency bands to restore underwater images, with training scaffolds that can be removed at inference.</p>
+        </article>
+      </section>
+
+      <section id="publications" aria-labelledby="publications-title">
+        <div class="pubs-head">
+          <h2 id="publications-title">Selected Publications</h2>
+          <p class="pubs-note"><span><sup>†</sup> Equal contribution</span><span>* Corresponding author</span></p>
+        </div>
+        <article class="entry" id="sandbar">
+          <div>
+            <h3>SandBAR: A Band-Asymmetric Architecture for Underwater Image Restoration with Removable Frequency Scaffolding</h3>
+            <p><span class="venue">WACV 2027 · Accepted</span></p>
+            <p class="authors"><strong>Yanzi Liu</strong>, Haoran Hou<sup>†</sup>, Jiachi Tong<sup>†</sup>, Shen Chen<sup>†</sup>, Shuang Chen*</p>
+            <div class="arrow-links">
+              <a class="link" href="https://github.com/YanziLiu/SandBAR/blob/main/papers/2026411507.pdf">Paper</a>
+              <a class="link" href="#sandbar-project">Project</a>
+              <a class="link" href="blog/sandbar.html">Blog</a>
+              <a class="link" href="https://github.com/YanziLiu/SandBAR">Code</a>
+              <a class="link" href="https://github.com/YanziLiu/SandBAR/releases/tag/v1.0.1">Model</a>
+            </div>
+          </div>
+          <div class="thumb">
+            <button class="flip-container" type="button" aria-label="Flip SandBAR illustration to view the architecture" aria-pressed="false">
+              <span class="flip-inner"><span class="flip-front"><img src="assets/sandbar-cover.svg" width="400" height="400" alt="SandBAR illustration" loading="lazy"></span><span class="flip-back"><img src="assets/sandbar-architecture.png" alt="SandBAR network architecture" loading="lazy"></span></span>
+            </button>
+          </div>
+        </article>
+        <article class="entry" id="adaptive-budget">
+          <div>
+            <h3>Adaptive Budget Allocation for Smart-Contract Fuzzing: Why Online Feedback Fails to Improve Vulnerability Triage</h3>
+            <p><span class="venue">IEEE MSN 2026 · Accepted</span></p>
+            <p class="authors"><strong>Yanzi Liu</strong>, Jiachi Tong</p>
+            <div class="arrow-links">
+              <a class="link" href="#adaptive-project">Project</a>
+              <a class="link" href="https://github.com/YanziLiu/AdaptiveBudget">Code</a>
+              <a class="link" href="https://github.com/YanziLiu/AdaptiveBudget#offline-allocation-results">Results</a>
+            </div>
+          </div>
+          <div class="thumb">
+            <button class="flip-container" type="button" aria-label="Flip Adaptive Budget illustration to view the results" aria-pressed="false">
+              <span class="flip-inner"><span class="flip-front"><img src="assets/adaptive-cover.svg" width="400" height="400" alt="Adaptive Budget allocation illustration" loading="lazy"></span><span class="flip-back"><img src="assets/adaptive-information.png" alt="Detection-cost information experiment; figure reproduced from the paper, © 2026 IEEE" loading="lazy"></span></span>
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="pubs-head"><h2>Open-Source Projects</h2></div>
+        <article class="entry project" id="sandbar-project">
+          <div>
+            <h3>SandBAR: Underwater Image Restoration</h3>
+            <p><span class="venue">2026</span></p>
+            <p class="authors">Yanzi Liu and collaborators</p>
+            <div class="arrow-links"><a class="link" href="https://github.com/YanziLiu/SandBAR">Project</a><a class="link" href="blog/sandbar.html">Blog</a><a class="link" href="https://github.com/YanziLiu/SandBAR/blob/main/docs/USAGE.md">Demo</a><a class="link" href="https://github.com/YanziLiu/SandBAR">Code</a></div>
+          </div>
+          <a class="project-figure" href="https://github.com/YanziLiu/SandBAR"><img src="assets/sandbar-architecture.png" width="2000" height="1131" alt="SandBAR architecture with frequency-band processing and removable training scaffolds" loading="lazy"></a>
+        </article>
+        <article class="entry project" id="adaptive-project">
+          <div>
+            <h3>Adaptive Budget: Allocation for Smart-Contract Fuzzing</h3>
+            <p><span class="venue">2026</span></p>
+            <p class="authors">Yanzi Liu, Jiachi Tong</p>
+            <div class="arrow-links"><a class="link" href="https://github.com/YanziLiu/AdaptiveBudget">Project</a><a class="link" href="https://github.com/YanziLiu/AdaptiveBudget#allocate-a-testing-budget">Example</a><a class="link" href="https://github.com/YanziLiu/AdaptiveBudget">Code</a></div>
+          </div>
+          <a class="project-figure" href="https://github.com/YanziLiu/AdaptiveBudget"><img src="assets/adaptive-portfolio.png" width="1800" height="419" alt="Portfolio heterogeneity in campaign saturation and detection cost; reproduced from the paper, © 2026 IEEE" loading="lazy"></a>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <div class="visitors">
+    <button class="map-toggle" type="button" aria-expanded="false" aria-controls="mapContainer">Show visitors map</button>
+    <div id="mapContainer" hidden><p class="map-placeholder">Visitor statistics are not enabled yet.</p><!-- Insert the owner's ClustrMaps embed here when registered. --></div>
+  </div>
+  <footer class="footer"><div class="container"><div class="copyright">Ya.L © 2026</div></div></footer>
+</body>
+</html>

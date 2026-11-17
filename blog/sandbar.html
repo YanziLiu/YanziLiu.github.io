@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>A clearer view beneath the surface · Yanzi Liu</title><meta name="description" content="A short introduction to SandBAR, a band-asymmetric approach to underwater image restoration."><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../style.css"></head>
+<body>
+  <nav class="banner" aria-label="Main navigation"><div class="container"><a class="nav-title" href="../">Yanzi Liu</a><div class="nav-links"><a href="../#about">About</a><a class="active" href="../#blog">Blog</a><a href="../#publications">Publications</a><a href="../#projects">Projects</a></div></div></nav>
+  <main class="container article-page"><article class="article-body">
+    <p class="post-date">November 2026 · Research notes</p><h1>A clearer view beneath the surface</h1>
+    <p>Underwater image restoration asks a model to recover useful visual information from degraded images. SandBAR explores a design that processes complementary frequency bands differently and uses auxiliary guidance during training.</p>
+    <img src="../assets/research-notes.svg" width="1280" height="720" alt="SandBAR underwater restoration illustration">
+    <h2>Complementary frequency bands</h2><p>The architecture combines a band-asymmetric sandwich block, SPARK, low-frequency guidance, and a three-scale spatial-frequency objective. These components connect spatial features with frequency information within the restoration model.</p>
+    <img src="../assets/sandbar-architecture.png" width="2000" height="1131" alt="The SandBAR architecture from the paper">
+    <h2>Scaffolding during training</h2><p>PaST trains the model with the SPARK scaffold and removes its auxiliary branches for inference. The released implementation provides a pretrained checkpoint, image restoration instructions, and evaluation scripts.</p>
+    <h2>Explore the work</h2><p>SandBAR is accepted at WACV 2027. The paper and code describe the experimental setup, results, and implementation in detail.</p>
+    <div class="arrow-links"><a href="https://github.com/YanziLiu/SandBAR/blob/main/papers/2026411507.pdf">Paper</a><a href="https://github.com/YanziLiu/SandBAR">Code &amp; results</a><a href="https://github.com/YanziLiu/SandBAR/releases/tag/v1.0.1">Model</a><a href="../#blog">Back to homepage</a></div>
+  </article></main><footer class="footer"><div class="container"><div class="copyright">Ya.L © 2026</div></div></footer>
+</body></html>
