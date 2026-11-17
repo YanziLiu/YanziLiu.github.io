@@ -1,5 +1,11 @@
 # Asset sources
 
+Affiliation marks from the institutions' official websites:
+
+- `cuhk-mark.ico`: https://www.cuhk.edu.cn/themes/custom/cuhk_ui/favicon.ico
+- `sribd-mark.png`: https://www.sribd.cn/sites/default/files/logo%2B_0.png
+- `shouzheng-mark.png`: http://www.szyc-data.com/website/favicon.png
+
 Downloaded from Yanzi Liu's public GitHub repositories on 17 November 2026. The source images are unmodified.
 
 | Local file | Public source | Description |
