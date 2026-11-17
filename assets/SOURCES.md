@@ -1,6 +1,6 @@
 # Asset sources
 
-`profile.jpg` is the personal photo supplied by Yanzi Liu for the homepage on 17 November 2026, used without image modifications.
+`profile-portrait.jpg` is the replacement personal photo supplied by Yanzi Liu for the homepage on 17 November 2026. The original 2394×3192 image is used without modifications and displayed in its original 3:4 aspect ratio.
 
 Affiliation marks from the institutions' official websites:
 
