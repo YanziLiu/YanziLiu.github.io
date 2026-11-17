@@ -153,6 +153,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .flip-front, .flip-back { display: block; width: 100%; overflow: hidden; border-radius: var(--radius); -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 .flip-front img { width: 100%; height: auto; }
 .flip-front video { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.flip-front .mayuri-portrait { object-position: 80% center; }
 .flip-back { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: .5rem; background: #fff; transform: rotateY(180deg); }
 .flip-back img { max-width: 100%; max-height: 100%; object-fit: contain; }
 @media (hover: hover) { .flip-container:hover .flip-inner { transform: rotateY(180deg); } }
