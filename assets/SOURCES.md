@@ -55,11 +55,11 @@ Replaced the original low-resolution GIF-derived clips on 17 November 2026 with 
 | --- | --- | --- | --- |
 | `kurisu-mayuri-opening-1080p-5s` | 1920×1080, 30 fps | 65.7–70.7 s, Kurisu turning followed by Mayuri | Official STEINS;GATE ELITE Steam page, “Opening Movie”: https://store.steampowered.com/app/819030/STEINSGATE_ELITE/ |
 | `mayuri-1080p-5s` | 1920×1080, 30 fps | 72–77 s, Mayuri talking to Okabe | Official STEINS;GATE ELITE Steam page, “Announce Trailer”: https://store.steampowered.com/app/819030/STEINSGATE_ELITE/ |
-| `kurisu-flourish-4.5s-720p` | 1280×720, 30 fps | 54.45–58.95 s, lab-coat flourish followed by arms-wide pose | Keibel, “For Makise, Kurisu Fans”: https://www.youtube.com/watch?v=l8dmjeClN9c |
+| `kurisu-portrait-5s-720p` | 1280×720, 30 fps | 21–26 s, face and upper-body portrait shots | Keibel, “For Makise, Kurisu Fans”: https://www.youtube.com/watch?v=l8dmjeClN9c |
 
 Official Steam source manifests:
 
 - Opening: https://video.akamai.steamstatic.com/store_trailers/819030/174113/b0db3ef0c341314213975559eaf199fa99b88b54/1750586737/hls_264_master.m3u8?t=1532310182
 - Announce: https://video.akamai.steamstatic.com/store_trailers/819030/152061/1f727ad50d2abe94786c0aeffacc4dcef9f5cd1d/1750586729/hls_264_master.m3u8?t=1521868235
 
-The 1920×1080 rendition was selected from each master playlist. The large blog cover uses the 1080p opening excerpt. The lab-coat clip retains its actual 720p source resolution and is displayed only in smaller cards.
+The 1920×1080 rendition was selected from each master playlist. The large blog cover uses the 1080p opening excerpt. The portrait clip retains its actual 720p source resolution and is displayed only in smaller cards.
