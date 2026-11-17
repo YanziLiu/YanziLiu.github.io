@@ -25,7 +25,9 @@ GitHub Pages publishes the root directory of the `codex/homepage` branch. Push e
 
 ## Visitor map
 
-The homepage preserves the reference’s expandable map entry. Statistics remain off until the owner creates a ClustrMaps widget for `https://yanziliu.github.io/` and inserts its embed inside `#mapContainer`, replacing the placeholder. Never reuse another website’s widget ID.
+The homepage uses the owner's MapMyVisitors map for `https://yanziliu.github.io/`. It loads with the homepage; the “Show visitors map” button controls presentation only. The collapsed container retains its width so the widget can initialize at the correct size.
+
+View statistics at https://mapmyvisitors.com/web/1c9jn. Manage the widget after signing in at https://mapmyvisitors.com/profile/1c9jn/widget/code/map. The embed uses a white background and grey-blue land to match the homepage reference.
 
 ## Design and assets
 

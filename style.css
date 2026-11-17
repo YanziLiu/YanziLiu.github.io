@@ -175,6 +175,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .map-toggle { padding: .5rem; border: none; background: none; color: var(--faint); cursor: pointer; font: inherit; font-size: .85rem; }
 .map-toggle:hover { color: var(--ink); }
 #mapContainer { margin-top: .5rem; }
+/* Keep the auto-width widget measurable while its presentation is collapsed. */
+#mapContainer[hidden] { display: block !important; height: 0; overflow: hidden; visibility: hidden; margin-top: 0; }
+/* The vendor sets pixel dimensions once; keep the map responsive on resize. */
+#mapmyvisitors-widget { width: 100% !important; }
+#mapmyvisitors-widget .mapmyvisitors-map { width: 100% !important; height: auto !important; aspect-ratio: 2.04; background-size: 100% 100%; }
 .footer { padding: 1.5rem 0 2rem; }
 .copyright { color: var(--muted); text-align: right; font-size: .9rem; }
 
