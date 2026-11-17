@@ -10,7 +10,7 @@ A buildless HTML, CSS, and JavaScript site hosted by GitHub Pages. The layout is
 - `style.css`: typography, layout, responsive design, and flip interactions.
 - `script.js`: navigation highlighting, touch/keyboard flip controls, and the map toggle.
 - `blog/sandbar.html`: the research note.
-- `assets/profile.svg`: initials placeholder; replace the image reference in `index.html` to use a personal portrait.
+- `assets/profile.jpg`: personal photo displayed in the homepage portrait area.
 - `assets/SOURCES.md`: research-figure sources and attribution.
 
 The education section contains the degree and subject. No full CV or private application documents are included.

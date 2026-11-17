@@ -1,5 +1,7 @@
 # Asset sources
 
+`profile.jpg` is the personal photo supplied by Yanzi Liu for the homepage on 17 November 2026, used without image modifications.
+
 Affiliation marks from the institutions' official websites:
 
 - `cuhk-mark.ico`: https://www.cuhk.edu.cn/themes/custom/cuhk_ui/favicon.ico
