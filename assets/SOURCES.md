@@ -45,3 +45,15 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+## Steins;Gate animation clips
+
+Existing anime footage, downloaded from publicly available user-uploaded Giphy and Tenor clips on 17 November 2026. The MP4 files are unchanged downloads. Each matching JPEG poster is the first frame of the source GIF, extracted without cropping or illustration changes. These are decorative character clips, not research results. The anime footage retains its original rights; this provenance record makes no license claim.
+
+| Local files | Character and action | Source page | Direct MP4 source |
+| --- | --- | --- | --- |
+| `anime/mayuri-tuturu.mp4`, `anime/mayuri-tuturu.jpg` | Mayuri Shiina waving | https://giphy.com/gifs/anime-greeting-mayuri-tuturu-BWygW6t6TWtpUejD43 | https://media.giphy.com/media/BWygW6t6TWtpUejD43/giphy.mp4 |
+| `anime/mayuri-smile.mp4`, `anime/mayuri-smile.jpg` | Mayuri Shiina smiling | https://tenor.com/view/mayuri-shiina-steins-gate-smile-happy-cute-gif-7150418242840273190 | https://media.tenor.com/Yztjgd_3oSYAAAPo/mayuri-shiina-steins-gate.mp4 |
+| `anime/kurisu-thinking.mp4`, `anime/kurisu-thinking.jpg` | Kurisu Makise thinking | https://tenor.com/view/anime-kurisu-makise-headache-thinking-gif-12655079 | https://media.tenor.com/LHjS5EH6kMQAAAPo/anime-kurisu.mp4 |
+| `anime/kurisu-smile.mp4`, `anime/kurisu-smile.jpg` | Kurisu Makise smiling | https://tenor.com/view/steins-gate-makise-kurisu-smile-cute-gif-15918710224527172119 | https://media.tenor.com/3Oqem7dSIhcAAAPo/steins-gate-makise.mp4 |

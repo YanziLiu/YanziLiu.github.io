@@ -33,6 +33,43 @@ for (const card of document.querySelectorAll('.flip-container')) {
   });
 }
 
+// Play the silent anime loops only while their cards are on screen.
+const animeLoops = [...document.querySelectorAll('.anime-loop')];
+const animationButton = document.querySelector('.animation-toggle');
+if (animeLoops.length && animationButton) {
+  const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+  let animationsPaused = motionPreference.matches;
+  const visibleLoops = new Set();
+
+  function updateAnimations() {
+    animationButton.textContent = animationsPaused ? 'Play animations' : 'Pause animations';
+    animationButton.setAttribute('aria-pressed', String(animationsPaused));
+    for (const video of animeLoops) {
+      if (!animationsPaused && visibleLoops.has(video)) video.play().catch(() => {});
+      else video.pause();
+    }
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    for (const { target, isIntersecting } of entries) {
+      if (isIntersecting) visibleLoops.add(target);
+      else visibleLoops.delete(target);
+    }
+    updateAnimations();
+  });
+  animeLoops.forEach(video => observer.observe(video));
+  animationButton.hidden = false;
+  animationButton.addEventListener('click', () => {
+    animationsPaused = !animationsPaused;
+    updateAnimations();
+  });
+  motionPreference.addEventListener('change', event => {
+    animationsPaused = event.matches;
+    updateAnimations();
+  });
+  updateAnimations();
+}
+
 const mapButton = document.querySelector('.map-toggle');
 if (mapButton) {
   mapButton.addEventListener('click', () => {
