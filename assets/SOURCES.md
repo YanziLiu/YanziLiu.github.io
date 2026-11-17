@@ -7,6 +7,7 @@ Affiliation marks from the institutions' official websites:
 - `cuhk-mark.ico`: https://www.cuhk.edu.cn/themes/custom/cuhk_ui/favicon.ico
 - `sribd-mark.png`: https://www.sribd.cn/sites/default/files/logo%2B_0.png
 - `shouzheng-mark.png`: http://www.szyc-data.com/website/favicon.png
+- `kcl-logo.svg`: https://www.kcl.ac.uk/SiteElements/2017/images/kcl-logo.svg — official vector wordmark linked in the footer of https://www.kcl.ac.uk/, downloaded unmodified on 17 November 2026. SVG viewBox: 477.19 × 363.38; vector paths remain sharp at any display resolution.
 
 Downloaded from Yanzi Liu's public GitHub repositories on 17 November 2026. The source images are unmodified.
 

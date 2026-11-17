@@ -99,7 +99,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .affils li { display: flex; align-items: center; gap: .85rem; }
 .affil-mark { display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 2.5rem; height: 2.5rem; }
 .affil-mark img { max-width: 100%; max-height: 100%; object-fit: contain; mix-blend-mode: multiply; }
-.affil-mark-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; }
 .affil-text strong { display: block; color: var(--ink-strong); font-weight: 600; line-height: 1.3; }
 .affil-text a { color: inherit; }
 .affil-text a:hover { color: var(--accent); }
