@@ -56,11 +56,28 @@ Replaced the original low-resolution GIF-derived clips on 17 November 2026 with 
 | --- | --- | --- | --- |
 | `kurisu-mayuri-opening-1080p-5s` | 1920×1080, 30 fps | 65.7–70.7 s, Kurisu turning followed by Mayuri | Official STEINS;GATE ELITE Steam page, “Opening Movie”: https://store.steampowered.com/app/819030/STEINSGATE_ELITE/ |
 | `mayuri-1080p-5s` | 1920×1080, 30 fps | 72–77 s, Mayuri talking to Okabe | Official STEINS;GATE ELITE Steam page, “Announce Trailer”: https://store.steampowered.com/app/819030/STEINSGATE_ELITE/ |
-| `kurisu-portrait-5s-720p` | 1280×720, 30 fps | 21–26 s, face and upper-body portrait shots | Keibel, “For Makise, Kurisu Fans”: https://www.youtube.com/watch?v=l8dmjeClN9c |
+
+Additional distinct project clips from the same official 1920×1080 opening source:
+
+| Local stem (`anime/`, `.mp4` and `.jpg`) | Source interval | Contents |
+| --- | --- | --- |
+| `ruka-faris-opening-1080p-5s` | 77.3–82.3 s | Faris, Ruka and Moeka character shots |
+| `okabe-ensemble-opening-1080p-5s` | 118.7–123.7 s | Okabe and the laboratory members |
 
 Official Steam source manifests:
 
 - Opening: https://video.akamai.steamstatic.com/store_trailers/819030/174113/b0db3ef0c341314213975559eaf199fa99b88b54/1750586737/hls_264_master.m3u8?t=1532310182
 - Announce: https://video.akamai.steamstatic.com/store_trailers/819030/152061/1f727ad50d2abe94786c0aeffacc4dcef9f5cd1d/1750586729/hls_264_master.m3u8?t=1521868235
 
-The 1920×1080 rendition was selected from each master playlist. The large blog cover uses the 1080p opening excerpt. The portrait clip retains its actual 720p source resolution and is displayed only in smaller cards.
+The 1920×1080 rendition was selected from each master playlist. The large blog cover uses the 1080p opening excerpt. All current homepage animation clips retain their 1920×1080 source resolution.
+
+## Road of Naruto clips
+
+Two different five-second excerpts from Studio Pierrot’s official 20th-anniversary animation, “ROAD OF NARUTO”: https://www.youtube.com/watch?v=yKELA1qBAKA . The source rendition is 1920×1080 H.264. Each output is silent H.264 at CRF18 with faststart, without upscaling or repeated footage. JPEG posters come from the corresponding clip.
+
+| Local stem (`anime/`, `.mp4` and `.jpg`) | Source interval | Contents |
+| --- | --- | --- |
+| `naruto-kurama-1080p-5s` | 15.20–20.20 s | Valley scene followed by Kurama appearing |
+| `sasuke-hand-sign-1080p-5s` | 20.25–25.25 s | Sasuke forming a hand sign |
+
+The three publication previews and two project previews use five distinct excerpts. The blog cover is a separate sixth excerpt. No video excerpt is reused between these placements.
